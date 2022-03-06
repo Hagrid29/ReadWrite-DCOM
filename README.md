@@ -53,13 +53,11 @@ Three methods were implemented:
 
 Remark: The second and third method would pop-up a prompt on target computer
 
-​		
 
 ## References
 
 * https://enigma0x3.net/2017/01/05/lateral-movement-using-the-mmc20-application-com-object/
 * https://www.cybereason.com/blog/dcom-lateral-movement-techniques
-
 
 
 ## MISC
